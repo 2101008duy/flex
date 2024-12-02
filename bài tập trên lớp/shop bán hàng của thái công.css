@@ -1,0 +1,40 @@
+header{
+    text-align: center;
+    background-color:gray ;
+    padding: 10px;
+}
+header li{
+    display: inline;
+    padding: 10px;
+}
+p{
+    color: red;
+    font-size: large;
+}
+h1{
+    text-align: center;
+}
+h2{
+    padding: 10px;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    margin: 5px;
+    font-size:large;
+}
+footer{
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+}
+.product{
+    border:double;
+    text-align: center;
+    margin: 10px;
+}
+nav{
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+}

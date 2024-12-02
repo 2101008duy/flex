@@ -1,0 +1,131 @@
+.text{
+    text-align: center;
+}
+.nav{
+    min-height: 42px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.nav-list{
+    padding-left: 0%;
+    margin: auto 16px;
+}
+.nav-item{
+    color: aliceblue;
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+}
+.form-container{
+    margin: auto;
+}
+.form_row{
+    padding:  8px 0;
+    display: flex;
+}
+.form_label{
+    min-width: 90px;
+}
+.form_input{
+    flex: 1;
+}
+.column-layout{
+    padding: 0 16px;
+    display: flex;
+    text-align: center;
+    
+}
+.sidebar-one{
+    flex: 1;
+    background-color: aqua;
+}
+.main-column{
+    background-color: black;
+    color: aliceblue;
+    flex:3;
+}
+.sidebar-two{
+    flex: 1;
+    background-color: chartreuse;
+}
+.feature-layout{
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.feature-item{
+    padding: auto;
+    margin-top: 16px;
+    flex-basis: 30%;
+}
+.feature-item:nth-child(1){
+    background-color: blue;
+}
+.feature-item:nth-child(2){
+    background-color: brown;
+}
+.feature-item:nth-child(3){
+    background-color: cornflowerblue;
+}
+.wrap-layout{
+    margin-top: 36px;
+    padding: 12px 0 32px 0;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.layout-item{
+    width: 148px;
+    height: 90px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 90px;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: brown;
+}
+.center-layout{
+    background-color:darkgoldenrod;
+    margin: 36px auto 0 auto;
+    padding: 32px 0;
+    max-width: 640px;
+    height: 360px;
+    display: flex;
+}
+.center-layout_item{
+    font-size: 42px;
+    font-weight: 700;
+    margin: auto;
+}
+.chart-layout{
+    margin: 36px auto 0 auto;
+    padding: 32px 0;
+    height: 320px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content:space-around ;
+}
+
+.chart-layout_item{
+    align-self: flex-end;
+    width: 60px;
+    color: aliceblue;
+    text-align: center;
+    height: var(--percent);
+    background-color: brown;
+    animation: growth ease-in-out 2s;
+}
+@keyframes growth{
+    from{
+        opacity: 0;
+        height: calc(var(--percent) -50%);
+    }
+    to{
+        opacity: 1;
+        height: var(--percent);
+    }
+}

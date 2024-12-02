@@ -1,0 +1,49 @@
+body{
+    background-color: dimgrey;
+}
+.tieude{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 25px;
+    
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.link0{
+    list-style: none;
+    display: flex;
+    
+}
+.item{
+    padding: 10px;
+}
+.link1{
+    list-style: none;
+    display: flex;
+}
+.tongquat{
+    display: flex;
+    border: 2px solid;
+}
+.web{
+    background-color: white;
+    flex: 7;
+
+}
+.web11{
+    padding-bottom: 20px;
+}
+
+.profile{
+    background-color: white;
+    border: 2px solid;
+    padding: 30px;
+}
+.profile img{
+    background-color: black;
+}
